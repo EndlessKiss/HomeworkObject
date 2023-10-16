@@ -31,6 +31,7 @@ public class Author {
         && authorLastname.equals(nullName.authorLastname);
 
     }
+
     @Override
     public int hashCode() {
         return java.util.Objects.hash(authorName, authorLastname);

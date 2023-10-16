@@ -42,6 +42,7 @@ public class Book {
                 && publisherYear == nullBook.publisherYear
                ;
     }
+
     @Override
     public int hashCode() {
         return java.util.Objects.hash(bookName, author, publisherYear);
